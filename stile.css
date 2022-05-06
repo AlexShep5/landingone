@@ -512,13 +512,17 @@ body {
         top: 19px;
         left: 19px;
     }
+    .footer {
+        padding-top: 47px;        
+    }
     .footer__info {
+        align-self: flex-start;
         width: auto;
-
     }
     .footer__top { 
-        padding: 0 92px 96px;
-
+        padding: 0 92px 0;
+        box-sizing: border-box;
+        min-height: 274px;        
     }
     .footer_text {        
         width: 336px;        
@@ -528,15 +532,18 @@ body {
     }        
     .footer__contacts {
         flex-direction: column;
-        padding: 64px 92px;    
+        padding: 64px 92px 0;    
         
+    }
+    .footer__bottom {
+        margin-top: 0;
     }
     .footer__list {        
         padding-left: 36px;
-        padding-top: 20px;                
+        padding-bottom: 20px;                
     }
     .footer__copy {
-        padding-left: 92px;        
+        padding: 28px 0 0 92px;        
     }
     .form {
         display: flex;
